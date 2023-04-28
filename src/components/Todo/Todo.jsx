@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegTrashAlt } from 'react-icons/fa';
 import { Status } from '../../models/status';
+import styles from './Todo.module.css';
 
 export default function Todo({ todo, onUpdate, onDelete }) {
   const { id, text, status } = todo;
@@ -15,14 +16,17 @@ export default function Todo({ todo, onUpdate, onDelete }) {
   };
 
   return (
-    <li>
+    <li className={styles.todo}>
       <input
+        className={styles.checkbox}
         type='checkbox'
         checked={status === Status.Done}
         onChange={handleChange}
       />
-      <label htmlFor='checkbox'>{text}</label>
-      <button onClick={handleClick}>
+      <label className={styles.text} htmlFor='checkbox'>
+        {text}
+      </label>
+      <button className={styles.button} onClick={handleClick}>
         <FaRegTrashAlt />
       </button>
     </li>
