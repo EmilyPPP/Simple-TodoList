@@ -5,6 +5,10 @@
   background-color: var(--color-bg-dark);
 }
 
+.form.darkMode {
+  background-color: var(--color-bg-dark-darkmode);
+}
+
 .input {
   flex: 1 0 auto;
   font-size: 1.4rem;

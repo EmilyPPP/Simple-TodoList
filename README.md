@@ -13,7 +13,7 @@
 - [x] 아이템 체크박스
 - [x] 아이템 추가
 - [x] 아이템 필터링
-- [ ] 다크모드 지원
+- [x] 다크모드 지원
 - [x] 스타일링
 
 ## 특이사항
@@ -26,3 +26,4 @@
 
 [CSS Gradient](https://cssgradient.io/) 사용해서 쉽게 Gradient 주기
 [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) 로 그림자 효과 주기
+[React Icons](https://react-icons.github.io/react-icons/)로 아이콘 추가

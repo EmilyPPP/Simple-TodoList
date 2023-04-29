@@ -7,6 +7,17 @@
   padding: 1rem;
 }
 
+.header.darkMode {
+  background-color: var(--color-bg-dark-darkmode);
+  border-bottom: 1px solid var(--color-darkgray);
+}
+
+.darkModeButton {
+  background-color: transparent;
+  color: var(--color-accent);
+  font-size: 1.4rem;
+}
+
 .filters {
   display: flex;
 }
@@ -31,4 +42,8 @@
   display: block;
   margin-top: 0.2rem;
   border: 1px solid var(--color-text);
+}
+
+.filter.selected.darkMode::after {
+  border: 1px solid var(--color-white);
 }

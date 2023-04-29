@@ -6,6 +6,9 @@
   --color-accent: #f16e03;
   --color-white: white;
   --color-scrollbar: #aaa7a7;
+  --color-bg-dark-darkmode: rgb(12, 12, 48);
+  --color-bg-darkmode: rgb(23, 23, 65);
+  --color-darkgray: #707070;
 }
 
 body {
