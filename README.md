@@ -1,4 +1,5 @@
 # TodoList
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/119949731/235279910-c9435cad-bd63-4baf-817b-a948b3a5c6b2.png">
 
 투두리스트 개발 토이 프로젝트입니다.
 
@@ -6,7 +7,7 @@
 
 `javascript`, `react.js`, `post css`
 
-## TODO
+## 구현된 기능
 
 - [x] 전체 아이템들 보여주기
 - [x] 아이템 삭제
