@@ -2,7 +2,7 @@
 <img width="792" alt="image" src="https://user-images.githubusercontent.com/119949731/235279964-4c45ba46-f6d5-4d82-9888-d8098ea5620d.png">
 
 REACT 스터디로 진행된 투두리스트 🗒️ 개발 프로젝트입니다.
-완성된 서비스는 [여기](https://clairepaek.github.io/TodoList/)에서 확인할 수 있어요. 😉
+완성된 서비스는 [여기](https://emilyppp.github.io/Simple-TodoList/)에서 확인할 수 있어요. 😉
 
 ## 사용한 기술 🔧
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>&#160;
