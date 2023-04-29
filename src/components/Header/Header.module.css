@@ -7,6 +7,12 @@
   padding: 1rem;
 }
 
+.darkModeButton {
+  background-color: transparent;
+  color: var(--color-accent);
+  font-size: 1.4rem;
+}
+
 .filters {
   display: flex;
 }

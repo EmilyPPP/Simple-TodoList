@@ -20,10 +20,11 @@ export default function Todo({ todo, onUpdate, onDelete }) {
       <input
         className={styles.checkbox}
         type='checkbox'
+        id={id}
         checked={status === Status.Done}
         onChange={handleChange}
       />
-      <label className={styles.text} htmlFor='checkbox'>
+      <label className={styles.text} htmlFor={id}>
         {text}
       </label>
       <button className={styles.button} onClick={handleClick}>
