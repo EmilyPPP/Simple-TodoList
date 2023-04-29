@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { FaRegTrashAlt } from 'react-icons/fa';
 import { Status } from '../../models/status';
 import styles from './Todo.module.css';
