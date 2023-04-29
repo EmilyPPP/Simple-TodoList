@@ -6,10 +6,6 @@
   background-color: var(--color-bg);
 }
 
-.container.darkMode {
-  background-color: var(--color-bg-darkmode);
-}
-
 .list {
   flex: 1 1 auto;
   overflow-y: scroll;

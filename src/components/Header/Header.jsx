@@ -1,19 +1,14 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import styles from './Header.module.css';
-import { DarkModeContext } from '../../context/DarkModeContext';
+import { useDarkMode } from '../../context/DarkModeContext';
 
 export default function Header({ filters, filter, onFilterChange }) {
-  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <header
-      className={`${styles.header} ${darkMode === true && styles.darkMode}`}
-    >
-      <button
-        className={styles.darkModeButton}
-        onClick={() => toggleDarkMode()}
-      >
+    <header className={styles.header}>
+      <button className={styles.darkModeButton} onClick={toggleDarkMode}>
         {darkMode ? <BsSunFill /> : <BsMoonFill />}
       </button>
       <ul className={styles.filters}>
@@ -22,7 +17,7 @@ export default function Header({ filters, filter, onFilterChange }) {
             <button
               className={`${styles.filter} ${
                 filter === value && styles.selected
-              } ${darkMode === true && styles.darkMode}`}
+              }`}
               onClick={() => onFilterChange(value)}
               value={value}
             >

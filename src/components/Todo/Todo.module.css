@@ -7,10 +7,6 @@
   color: var(--color-text);
 }
 
-.todo.darkMode {
-  color: var(--color-white);
-}
-
 .checkbox {
   width: 1.5rem;
   height: 1.5rem;
